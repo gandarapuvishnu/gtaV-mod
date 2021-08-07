@@ -64,6 +64,7 @@ namespace TeleportAutoDrive
         }*/
     }
 
+    // Since, it can't work with aircrafts
     public class AutoDrive : TeleportAutoDrive
     {
         private readonly Dictionary<string, int> DrivingStyles = new Dictionary<string, int>() {
@@ -128,6 +129,7 @@ namespace TeleportAutoDrive
                 }
                 catch (NullReferenceException ex)
                 {
+                    UI.Notify(message: "Err!");
                     File.AppendAllText(error_path, ex.StackTrace + "\n", Encoding.UTF8);
                 }
             }
