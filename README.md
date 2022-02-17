@@ -11,6 +11,8 @@ Usage
     3. Place the script files or the build/release of the scripts in that folder.
     And, hit Reload() in the game by pressing F4.
     
+Demo link: [https://youtu.be/t_77Ls8ZdV4](https://youtu.be/t_77Ls8ZdV4)
+    
 Acknowledgment
 
     https://gtaforums.com/topic/822314-guide-driving-styles/ By User:Eddlm
